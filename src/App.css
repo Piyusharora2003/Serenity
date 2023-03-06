@@ -23,6 +23,11 @@
 }
 
 
+#treat-title , #title-home{
+  font-family: 'Courier New', Courier, monospace;
+  font-size :5.6vmax;
+  display: inline;
+}
 
 .figsize{
   font-size: 2.3vmin;

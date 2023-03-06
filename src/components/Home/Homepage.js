@@ -5,7 +5,7 @@ export default function () {
     <div className='borders'>
         <div className='lefthome'>
         <div className='title-box' >
-                    <p id="title-home">Serenity</p>
+                    <p id="treat-title">Serenity</p>
                     <span><img className='title-image' src='https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/hNA9-68M2k-JFUk7QeEaDg/pngtree-disposable-cup-vector-illustration-with-simple-black-line-design-drink-icon-png-image_5222453.png' alt='...'/></span>
                 </div>
                 <div>

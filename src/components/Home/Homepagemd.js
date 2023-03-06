@@ -5,8 +5,8 @@ export default function () {
   return (
 <>
     <div className='marginmd'>
-            <div className='title-box center' >
-                    <p id="title-home">Serenity</p>
+    <div className='title-box center' >
+                    <p id="treat-title">Serenity</p>
                     <span><img className='title-image' src='https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/hNA9-68M2k-JFUk7QeEaDg/pngtree-disposable-cup-vector-illustration-with-simple-black-line-design-drink-icon-png-image_5222453.png' alt='...'/></span>
                 </div>
                 <div>
