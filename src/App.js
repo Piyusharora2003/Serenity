@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './components/Home/Home.js';
+import Menu from "./components/Menu/whatWeOffer"
+import Musics from "./components/Musics/Musics"
+import Movies from "./components/MOvies/Movies"
+import Books from "./components/Books/Books"
+import Excercises from "./components/Exercise/Excercises"
+import Treat from "./components/Treat/treat"
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+      <Routes>
+          <Route index exact element={<Home />} />
+          <Route  path='menu' exact element={<Menu />} />
+          <Route  path='music' exact element={<Musics />} />
+          <Route  path='movies' exact element={<Movies />} />
+          <Route  path='books' exact element={<Books />} />
+          <Route  path='exercise' exact element={<Excercises />} />
+          <Route path="treat" exact element={<Treat />}/>
+      </Routes>
+    </BrowserRouter>
+
+
+        </>
   );
 }
 
