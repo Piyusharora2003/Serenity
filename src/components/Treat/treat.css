@@ -3,6 +3,8 @@
     flex-direction: column;
 }
 
+
+
 .width-60vw{
     width:60vw;
     padding-right: 4%;
@@ -54,7 +56,7 @@
 
 
 .borderr{
-    height: 100vh;
+    height: 72vh;
     border-right:  2px solid black;
 }
 .info-treat{

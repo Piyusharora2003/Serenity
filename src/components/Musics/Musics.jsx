@@ -17,7 +17,11 @@ const Musics = () => {
 
 
   return (
+<<<<<<< HEAD
     <div className="slightright">
+=======
+    <div>
+>>>>>>> ea1138bfcb3efcd53c843b45b520da3190d6e968
       <Navbar />
       <p className="music-title">The Playlist</p>
       <div className="filterSong">
