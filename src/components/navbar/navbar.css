@@ -36,7 +36,5 @@
    .floating-nav{
       opacity: 0.7;
    }
-   .slightright{
-      transform: translateX(+3vw);
-   }
+
 }
