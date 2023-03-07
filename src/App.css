@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Merienda&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
 
 .borders{
     margin : 3%;
@@ -23,9 +24,11 @@
 }
 
 
+
+
 #treat-title , #title-home{
-  font-family: 'Courier New', Courier, monospace;
-  font-size :5.6vmax;
+  font-family: 'Shantell Sans', cursive;
+    font-size :5.6vmax;
   display: inline;
 }
 
@@ -50,7 +53,7 @@
 
 .hometext{
   font-size: 1.5vmax;
-  font-family: 'Merienda', cursive;
+  /* font-family: 'Merienda', cursive; */
   margin-left: 0;
   padding-top: 2rem;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "./treat.css"
 
 import Navbar from '../navbar/navbar';
@@ -21,7 +22,15 @@ function treat() {
         {/* right park */}
           <div className='frow width-40vw'>
                 <div>
-                      <div className='right'><img className='title-image' src='https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/hNA9-68M2k-JFUk7QeEaDg/pngtree-disposable-cup-vector-illustration-with-simple-black-line-design-drink-icon-png-image_5222453.png' alt='...'/></div>
+                      <div className='right'>
+                      <div className='stack'>
+          <Link to="/about" className='treat-link'>
+              <img src="https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/V-dRDb_IhEeX2qM9VfeBEw/pngtree-disposable-cup-vector-illustration-with-simple-black-line-design-drink-icon-png-image_5222453.png" alt="" sizes="" srcset="" />
+          </Link>
+          <p className='text-center style'>
+            About Us
+          </p>
+          </div>                      </div>
                 </div>
                 <div className='mid mt-3' >
                     <img src="https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/iQZzHC1j9UWn7kRKOHoIFw/Image_3.png" className='payment-img' alt="" />

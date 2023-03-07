@@ -9,7 +9,7 @@ export default function () {
                     <span><img className='title-image' src='https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/hNA9-68M2k-JFUk7QeEaDg/pngtree-disposable-cup-vector-illustration-with-simple-black-line-design-drink-icon-png-image_5222453.png' alt='...'/></span>
                 </div>
                 <div>
-                    <figcaption className="blockquote-footer figsize">
+                    <figcaption className="blockquote-footer figsize font">
                     Calmness in recreating yourself
                     </figcaption>
                 </div>
