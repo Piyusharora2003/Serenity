@@ -11,11 +11,7 @@
 .music-title{
     font-size: 3.4rem;
     padding: 0.4rem 1rem;
-<<<<<<< HEAD
     font-family: 'Ubuntu', sans-serif;
-=======
-    font-family: 'Courier New', Courier, monospace;
->>>>>>> ea1138bfcb3efcd53c843b45b520da3190d6e968
     letter-spacing: 0.1rem;
     padding-left:2rem;
     font-weight: 620;
@@ -26,6 +22,7 @@
 .filterSong{
     width:100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-left: 3.5%;
 }
@@ -55,16 +52,8 @@
 
 
 
-<<<<<<< HEAD
 @media screen and (max-width:650px){
     .songcard{
        justify-content: center;
     }
 }
-=======
-/* @media screen and (max-width:650px){
-    .songcard{
-       justify-content: center;
-    }
-} */
->>>>>>> ea1138bfcb3efcd53c843b45b520da3190d6e968
