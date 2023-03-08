@@ -91,7 +91,7 @@
     font-size: 4rem;
     align-items: center;
     float:left;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
 }
 .borders-whatweoffers{
@@ -114,6 +114,7 @@ font-family: "Open Sans";
 font-size: 1.5rem;
 font-weight: 700;
     margin-right: 4vw;
+    margin-bottom: 13vh;
     text-align: center;
 letter-spacing: -0.3px;
 border: 0;
@@ -167,4 +168,17 @@ transition: 0.9s;
     body{
         margin-bottom: 25vh;
     }
+    .benaam{
+        justify-content: center;
+    }
+}
+
+.stack{
+    display: flex;
+    flex-direction: column;
+}
+
+.style{
+    font-size: larger;
+    transform: translateY(-2vh);
 }

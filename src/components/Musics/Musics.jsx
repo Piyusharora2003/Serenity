@@ -17,7 +17,7 @@ const Musics = () => {
 
 
   return (
-    <div>
+    <div className="slightright">
       <Navbar />
       <p className="music-title">The Playlist</p>
       <div className="filterSong">

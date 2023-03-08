@@ -16,10 +16,14 @@ function whatWeOffer() {
                 Our Shelf:
           </div>
           <div className='whatweoffer-floatleft'>
-          <Link to="/" className='treat-link'>
-
-            <img src="https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/V-dRDb_IhEeX2qM9VfeBEw/pngtree-disposable-cup-vector-illustration-with-simple-black-line-design-drink-icon-png-image_5222453.png" alt="" sizes="" srcset="" />
-            </Link>
+          <div className='stack'>
+          <Link to="/about" className='treat-link'>
+              <img src="https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/V-dRDb_IhEeX2qM9VfeBEw/pngtree-disposable-cup-vector-illustration-with-simple-black-line-design-drink-icon-png-image_5222453.png" alt="" sizes="" srcset="" />
+          </Link>
+          <p className='text-center style'>
+            About Us
+          </p>
+          </div>
           </div>
         </div>
 

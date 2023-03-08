@@ -11,7 +11,7 @@ export const Data=[
       id:2,
       image:"https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/KiNfmOi8v028UM_ZwC1_yg/Cinema.png",
       link:"/movies",
-      info:"Movies introduce you to not only one, but a varied art form. It can motivate, encourage, and romanticise you, based on what character you admire the most. However hectic, boring, stressful your present is, your near future could always be exciting in your own way. Explore what role is your life demanding now.",
+      info:"Movies introduce you to not only one, but a varied art form. It can motivate, encourage, and romanticise you, based on what character you admire the most. However hectic, boring, stressful your present is,  Explore what role is your life demanding now.",
       title:"Movies",
       bgcolor:"#D1E8E4"
 
@@ -20,15 +20,15 @@ export const Data=[
       id:3,
       image:"https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/bqgzliYloUycKKdaHOezRg/Man_In_Lotus_Position.png",
       link:"/exercise",
-      info:"Music is an art form that uses sound and rhythm to creof styles, genres, and cultures, and has been an integral part of human history and culture for thousands of years.",
-      title:"Exercises",
+      info:"Exercise is the physical as well as mental contribution to your body and health. Exercise reduces the risk of diseases, controls weight, boosts mood and energy. The best way to do something reproductive during a break is to explore the magic of fitness.",
+       title:"Exercises",
       bgcolor:"F5ECF2"
       },
       {
          id:4,
          image:"https://cdn-in.icons8.com/yPqGjFz4y06lAX9IolKbzw/Z8JCZH9uyUaDkORP7R9oRQ/Books_Emoji.png",
          link:"/books",
-         info:"Music is an art form that uses sound and rhythm to creof styles, genres, and cultures, and has been an integral part of human history and culture for thousands of years.",
+        info:"Books are a real escape to the world of imagination.It is the best thing to seek calmness. It can improve your reading, writing, and speaking abilities, and improve memory and intellect. Explore the world of philosophy, values, and motivation with a click.",
          title:"Books",
          bgcolor:"#E3CBB7"
       }
